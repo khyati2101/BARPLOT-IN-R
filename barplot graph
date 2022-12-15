@@ -1,0 +1,4 @@
+month<-c("jan","feb","mar","april","may")
+rainall_data<-c(25,16,13,20,24)
+barplot(rainall_data,main="Rainfall Data in monsoon season",names.arg=month,xlab="month",ylab="rainfall",
+col="green")
